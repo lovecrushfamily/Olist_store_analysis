@@ -1,8 +1,8 @@
-# Analyze, Visualize E-commerce dataset
+# Analyze, Visualize **Mercado Livre** ecommerce dataset
 
 ### Final project data analysis with python
 
-<u>Authors:</u> LoveCrush <br> Module
+`<u>`Authors:`</u>` LoveCrush `<br>` Module
 Class : 124221
 
 ## Data overview
@@ -10,17 +10,20 @@ Class : 124221
 This project focus on three main purpose, data analysis, data visualization, predictive model( in advanced ). All the data in this dataset was about brazil, all cities, states, locations,.. And this  dataset was already clean at first, So we just analyze it .
 Ecommerce datasets contain vast amounts of information about products, customers, marketplaces and sales. Product discovery KPIs help ecommerce retailers understand how customers find their products and online marketplace, which then gives them the means to boost campaigns and increase online consumer traffic.
 
+Note: Remember this dataset was merged and joined from other datasets, maybe like some shitty table in sql, I dunno <br>
+Order_id incredibly turns out order_detail_id or order_item_id, try not to get any misunderstanding of it here. <br>
+This dataset contained data between 2016-09-4 -> 2018-09-03 (almost two years)
 ## Knowlegde requirements
 
--   jupiter notebook
--   numpy, pandas , matplotlib, csv
+- jupiter notebook
+- numpy, pandas , matplotlib, csv
 
 ## Data Description
 
 | S.No | Name                 | Description                                                         |
 | ---- | -------------------- | ------------------------------------------------------------------- |
 | 1    | order_id             | unique id for each order (32 fixed-size number)                     |
-| 2    | customer_id          | unique id for each customer (32 fixed-size number)                  |
+| 2    | customer_id          | unique id for each custome  r (32 fixed-size number)                  |
 | 3    | quantity             | 1-21  (maximum quantity)                                            |
 | 4    | price_MRP            | cost price, 0.85-6735 (price_maximum retail price)                  |
 | 5    | payment              | selling price, 0-13664.8  (brazililian real - R$)    code : BRL     |
@@ -48,74 +51,75 @@ Ecommerce datasets contain vast amounts of information about products, customers
 | AC         | Acre                |
 | AL         | Alagoas             |
 | AM         | Amazonas            |
-| AP         | Amapá               |
+| AP         | Amapá              |
 | BA         | Bahia               |
-| CE         | Ceará               |
+| CE         | Ceará              |
 | DF         | Distrito Federal    |
-| ES         | Espírito Santo      |
-| GO         | Goiás               |
-| MA         | Maranhão            |
+| ES         | Espírito Santo     |
+| GO         | Goiás              |
+| MA         | Maranhão           |
 | MG         | Minas Gerais        |
 | MS         | Mato Grosso do Sul  |
 | MT         | Mato Grosso         |
-| PA         | Pará                |
-| PB         | Paraíba             |
+| PA         | Pará               |
+| PB         | Paraíba            |
 | PE         | Pernambuco          |
-| PI         | Piauí               |
-| PR         | Paraná              |
+| PI         | Piauí              |
+| PR         | Paraná             |
 | RJ         | Rio de Janeiro      |
 | RN         | Rio Grande do Norte |
-| RO         | Rondônia            |
+| RO         | Rondônia           |
 | RR         | Roraima             |
 | RS         | Rio Grande do Sul   |
 | SC         | Santa Catarina      |
 | SE         | Sergipe             |
-| SP         | São Paulo           |
+| SP         | São Paulo          |
 | TO         | Tocantins           |
 
 ## Analysis Performed using Jupyter Notebook
 
 #### Questions:
-1. <b>Customer Segmentation </b><br>
-   Categorizing customers based on their spendings <br>
+
+1. `<b>`Customer Segmentation `</b><br>`
+   Categorizing customers based on their spendings, `<br>`
    [Bar-graph]
-2. <b>Monthly Trend Forecasting </b><br>Visualising the monthly trend of sales <br>
+2. `<b>`Monthly Trend Forecasting `</b><br>`Visualising the monthly trend of sales `<br>`
    [Bar-graph]
-3. <b>Hourly Sales Analysis </b><br>Which hour has more no. of sales?<br>
+3. `<b>`Hourly Sales Analysis `</b><br>`Which hour has more no. of sales?`<br>`
    [Timeseries-Plot]
-4. <b>Product Based Analysis </b><br>
-   Which category product has sold more?<br>
-   Which category product has more rating?<br>
-   Which product has sold more?<br>
-   Top 10 highest & least product rating?<br>
-   Order Count for each rating <br>
+4. `<b>`Product Based Analysis `</b><br>`
+   Which category product has sold more?`<br>`
+   Which category product has more rating?`<br>`
+   Which product has sold more?`<br>`
+   Top 10 highest & least product rating?`<br>`
+   Order Count for each rating `<br>`
    [Bar-graph]
-5. <b>Payment Preference </b><br>
-   What are the most commonly used payment types?<br>
-   Count of Orders With each No. of Payment Installments <br>
+5. `<b>`Payment Preference `</b><br>`
+   What are the most commonly used payment types?`<br>`
+   Count of Orders With each No. of Payment Installments `<br>`
    [Pie-Chart]
-6. <b>Potential Customer's Location </b><br>
-   Where do most customers come from?<br>
+6. `<b>`Potential Customer's Location `</b><br>`
+   Where do most customers come from?`<br>`
    [Pie-chart]
-7. <b>Seller Rating </b><br>
-   Which seller sold more?<br>
-   Which seller got more rating?<br>
+7. `<b>`Seller Rating `</b><br>`
+   Which seller sold more?`<br>`
+   Which seller got more rating?`<br>`
    [Bar-graph]
-8. <b>Logistics based Optimization Insights </b><br>
-   Which city buys heavy weight products and low weight products?<br>
-   [Pie-chart]<br>
-   How much products sold within seller state?<br>
+8. `<b>`Logistics based Optimization Insights `</b><br>`
+   Which city buys heavy weight products and low weight products?`<br>`
+   [Pie-chart]`<br>`
+   How much products sold within seller state?`<br>`
    [Bar-graph]
 
 #### Machine Learning Model:
 
-9. <b>Predicting future sales </b><br>
+9. `<b>`Predicting future sales `</b><br>`
    ML - Linear regression
 
 #### Visualization:
 
-Total no. of Graphs & Plots: 19 <br>
-Python Plots <br>
+Total no. of Graphs & Plots: 19 `<br>`
+Python Plots `<br>`
 
 ## Example Plot
 
