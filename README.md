@@ -6,7 +6,7 @@
 Module: Data analysis with python <br>
 Class : 124221 <br>
 
-## Data overview
+## Project overview
 
 This project focus on three main purpose, data analysis, data visualization, predictive model( in advanced ). All the data in this dataset was about brazil, all cities, states, locations,.. And this  dataset was not clean at first, I need to drop some duplicated nonsense record, row and draw random value for quantity. payment installations, seem like those record was duplicated by hand with no deep modification So we obviously got some record with order_id and product_id look exactly the same, the e-commerce exchanges could never give you more than two bills if you buy the same product, the different should be on quantity, but it's not.
 <br>
@@ -32,7 +32,7 @@ Remember: Analysis always plays along with visualization.
 | ---- | -------------------- | --------------------------- | ------------------------------------------------------------------- |
 | 1    | order_id             | No. unique orders: 97254    | unique id for each order (32 fixed-size number)                     |
 | 2    | customer_id          | No. unique cus: 97254       | unique id for each customer (32 fixed-size number)                  |
-| 3    | quantity             |                             | 1-21  (maximum quantity)                                            |
+| 3    | quantity             |                             | 1-20  (maximum quantity)                                            |
 | 4    | price_MRP            |                             | cost price, 0.85-6735 (price_maximum retail price)                  |
 | 5    | payment              |                             | selling price, 0-13664.8  (brazililian real - R$)    code : BRL     |
 | 6    | timestamp            |                             | order purchase time (local, day-month-year hour:min:sec AM/PM)      |
@@ -52,35 +52,38 @@ Remember: Analysis always plays along with visualization.
 
 ## The state map with their full name
 
-| Short name | Full Name           |
-| ---------- | ------------------- |
-| AC         | Acre                |
-| AL         | Alagoas             |
-| AM         | Amazonas            |
-| AP         | Amapá               |
-| BA         | Bahia               |
-| CE         | Ceará               |
-| DF         | Distrito Federal    |
-| ES         | Espírito Santo      |
-| GO         | Goiás               |
-| MA         | Maranhão            |
-| MG         | Minas Gerais        |
-| MS         | Mato Grosso do Sul  |
-| MT         | Mato Grosso         |
-| PA         | Pará                |
-| PB         | Paraíba             |
-| PE         | Pernambuco          |
-| PI         | Piauí               |
-| PR         | Paraná              |
-| RJ         | Rio de Janeiro      |
-| RN         | Rio Grande do Norte |
-| RO         | Rondônia            |
-| RR         | Roraima             |
-| RS         | Rio Grande do Sul   |
-| SC         | Santa Catarina      |
-| SE         | Sergipe             |
-| SP         | São Paulo           |
-| TO         | Tocantins           |
+(*): top 6 most  popular state in brazil <br>
+Brasilia : Capital of brazil which located at Distrito Federal state
+
+| Abbreviation name      | Full Name           |
+| --------------- | ------------------- |
+| AM              |(*) Amazonas (The most shared Amazon forest state)            |
+| MG              |(*) Minas Gerais  (The state has the most unmistakable food)      |
+| BA              |(*) Bahia  (The unique culture of brazil)             |
+| RJ              |(*) Rio de Janeiro  (The most famous state in brazil)     |
+| SP              |(*) São Paulo  (The richest state in Brazil)         |
+| DF              |(*) Distrito Federal (state which the capital of brazil was located)   |
+| AC              | Acre                |
+| AL              | Alagoas             |
+| AP              | Amapá               |
+| CE              | Ceará               |
+| ES              | Espírito Santo      |
+| GO              | Goiás               |
+| MA              | Maranhão            |
+| MS              | Mato Grosso do Sul  |
+| MT              | Mato Grosso         |
+| PA              | Pará                |
+| PB              | Paraíba             |
+| PE              | Pernambuco          |
+| PI              | Piauí               |
+| PR              | Paraná              |
+| RN              | Rio Grande do Norte |
+| RO              | Rondônia            |
+| RR              | Roraima             |
+| RS              | Rio Grande do Sul   |
+| SC              | Santa Catarina      |
+| SE              | Sergipe             |
+| TO              | Tocantins           |
 
 ## Order status process
 

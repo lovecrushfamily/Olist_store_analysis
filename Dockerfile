@@ -3,10 +3,13 @@ FROM python:3
 WORKDIR /usr/src/app
 
 COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+COPY ecommerce_analysis.ipynb ./
 
-COPY . .
+RUN pip install -r requirements.txt
+
+ENV JUPYTER_ENABLE_LAB=yes
+ENV JUPYTER_TOKEN=mystarlog
 
 EXPOSE 8888
 
-CMD [ "python", "./your-daemon-or-script.py" ]
+CMD [ "jupyter","notebook","--allow-root", "."]
