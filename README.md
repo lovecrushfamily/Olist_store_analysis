@@ -1,4 +1,4 @@
-# Analyze, Visualize **Mercado Livre** e-commerce dataset
+# Analyze, Visualize **Olist Store** e-commerce dataset
 
 ### Final project data analysis with python
 

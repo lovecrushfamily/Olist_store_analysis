@@ -1,0 +1,7 @@
+
+original link:
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_geolocation_dataset.csv
+
+
+github link : 
+https://github.com/DharshanKumarCoder/ecommerce_analysis?tab=readme-ov-file
