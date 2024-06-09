@@ -17,3 +17,15 @@ số lượng sản phẩm nhân với giá bán lẻ đó có bằng payment kh
 nhaan soos luownjg vows ppayment ddeer ra dduowjc total amount paymnet
 
 sanf olist store
+
+
+
+bao nhieu bien dinh tính, dinh luong
+liet ke cac feature tong dataset
+chụp ảnh thống kê các biến định lượng ra
+
+
+chụp phần tiền sử lý dữ liệu
+thống kê dữ liệu nữa
+trực quan hóa nữa,
+
